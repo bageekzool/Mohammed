@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.H.D</title>
+    <link rel="stylesheet" href="Css/mo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   
+    <link rel="icon" href="icon/ic.ico"> 
+</head>
+<body onload="myAlert()">
+    <div class="moha" id="login1">
+        <form action="" method="get" class="sigin-form" >
+            <h1 class="title2">Login</h1>
+            <div class="input-box">
+                <input  type="text" name="username" placeholder="username" class="pass" >
+                <i class='bx bx-user-circle' ></i>
+            </div>
+            <div class="input-box">
+                <input  type="password"  name="password" placeholder="password" id="pass">
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <div class="remmeber-forget">                      
+                <label for="check">  <input  type="checkbox" name="check" id="check"> Show/Hide password</label>         
+            </div>
+            <div class="remmeber-forget">
+               <label for="">
+                <input type="checkbox">
+                Remmeber me 
+               </label>
+               <a href="#">forget password</a>
+            </div>
+            <button type="submit" class="btn" id="botton" onmouseover="btnColorOn()" onmouseout="btnColorOff()" >login</button>
+            <button type="reset" class="bt" >Reset</button>
+            <div class="register-link">
+                <p>
+                    Dont have an account <a href="#">Register</a>
+                </p>
+            </div>
+        </form>
+    </div>   
+    <script src="java/form.js"></script>
+</body>
+</html>
